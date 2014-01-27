@@ -1,0 +1,19 @@
+{
+  "name": "khaos-logo",
+  "repo": "segmentio/khaos-logo",
+  "description": "The logo for the Khaos template generator.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": ["logo", "khaos"],
+  "styles": [
+    "index.css"
+  ],
+  "images": [
+    "images/khaos-black.svg",
+    "images/khaos-white.svg",
+    "images/khaos.svg"
+  ],
+  "dependencies": {
+    "logo/logo": "*"
+  }
+}

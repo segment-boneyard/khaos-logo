@@ -1,0 +1,24 @@
+
+/**
+ * Khaos logo.
+ *
+ * *.logo[data-logo="Khaos"][data-color]
+ */
+
+.logo[data-logo="Khaos"] {
+  width: 4.240677644em; /* (864.047/250.264) * (1+.25) - .075 */
+}
+
+.logo[data-logo="Khaos"] > * {
+  background-image: url(images/khaos.svg);
+  margin: 0 -.075em -.25em 0;
+}
+
+.logo[data-logo="Khaos"][data-color="black"] > * {
+  background-image: url(images/khaos-black.svg);
+}
+
+
+.logo[data-logo="Khaos"][data-color="white"] > * {
+  background-image: url(images/khaos-white.svg);
+}
